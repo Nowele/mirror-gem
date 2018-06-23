@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">@color/mirrorGray</color>
+    <color name="colorPrimaryDark">@color/mirrorDarkGray</color>
+    <color name="colorAccent">@color/lapisBlue</color>
 
     <color name="lapisBlue">#1F8DF5</color>
     <color name="lapisBlueShadow">#236BE9</color>
     <color name="lapisBlueCrack">#222675</color>
+
+    <color name="mirrorLines">#AECBED</color>
+
+    <color name="mirrorGray">#A4B0B2</color>
+    <color name="mirrorDarkGray">#6C758E</color>
 
 </resources>
