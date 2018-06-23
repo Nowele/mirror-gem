@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="lapisBlue">#1F8DF5</color>
+    <color name="lapisBlueShadow">#236BE9</color>
+    <color name="lapisBlueCrack">#222675</color>
+
 </resources>
