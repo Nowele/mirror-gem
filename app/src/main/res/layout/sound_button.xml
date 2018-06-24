@@ -6,15 +6,22 @@
 
     <ImageView
         android:layout_width="100dp"
-        android:layout_height="match_parent"
-        android:id="@+id/button_image"/>
+        android:layout_height="200dp"
+        android:id="@+id/button_image"
+        android:src="@drawable/mirror_front"
+        android:scaleType="centerInside"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_centerVertical="true"/>
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/button_text"
-        android:textColor="@color/mirrorGray"
+        android:textColor="@color/mirrorDarkGray"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:layout_toRightOf="@+id/button_image"
-        android:layout_centerVertical="true" />
+        android:layout_centerVertical="true"/>
 
 </RelativeLayout>
